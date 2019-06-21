@@ -1,0 +1,33 @@
+#rootPane {
+    -fx-background-color: #cccccc;
+}
+
+ToolBar {
+    -fx-background-color: #383838;
+}
+
+ToolBar Label {
+    -fx-text-fill: white;
+}
+
+.controls {
+    -fx-background-color: #484848;
+    -fx-text-fill: white;
+}
+
+.controls:hover {
+    -fx-background-color: #323232;
+}
+
+ToolBar Button {
+    -fx-background-color: #333333;
+    -fx-text-fill: white;
+}
+
+ToolBar Button:hover {
+    -fx-background-color: #535353;
+}
+
+.controls > Label {
+    -fx-text-fill: white;
+}
